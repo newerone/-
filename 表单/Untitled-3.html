@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+</head>
+
+<body><form>
+   <table border="1" cellpadding="8" cellspacing="0" align="center">
+         <tr align="center" bgcolor="#669900">
+           <td colspan="2"><strong>产品订购<strong></td>
+         </tr>
+         <tr bgcolor="#CCCCCC">
+            <td>姓名：<input type="text" name="username" size="20" /></td>
+            <td>商品名称：<input type="text" name="pdname" size="20" /></td>
+         </tr>
+         <tr bgcolor="#FFFF99">
+            <td>地区：<select name="aere">
+                         <option value="guangzhou">广州
+                         <option value="dongguan">东莞
+                         <option value="shenzhen">深圳
+                         <option value="sichuan">四川
+                      </td>
+            <td>付款方式：
+              <input type="radio" name="pay" value="wangshang" checked="checked" />网上
+                           <input type="radio" name="pay" value="youju" />邮局
+                           <input type="radio" name="pay" value="yinhang" />银行
+            </td>
+         </tr>
+         <tr bgcolor="#CCCCCC">
+             <td colspan="2">关注产品：<input type="checkbox" name="m1" value="hufupin"  checked="checked"/>护肤品
+                           <input type="checkbox" name="m2" value="huazhuangpin" />化妆品
+                           <input type="checkbox" name="m3" value="fuzhuang" checked="checked" />服装
+                           <input type="checkbox" name="m4" value="dianqi" />电器
+             </td>
+         </tr>
+         <tr bgcolor="#FFFF99">
+              <td colspan="2">联系电话：<input type="text" name="telnumber" size="20" maxlength="11" /></td>
+         </tr>
+         <tr bgcolor="#CCCCCC">
+              <td align="right">备注：</td>
+              <td><textarea name="say" rows="5" cols="60"></textarea></td>
+         </tr>
+         <tr bgcolor="#FFFF99">
+              <td colspan="2"><input type="submit" value="提交" />
+                  <input type="reset" value="重置" />
+                  <input type="hidden" name="invest" value="invest" />
+              </td>
+         </tr>         
+   </table></form>
+</body>
+</html>
